@@ -14,8 +14,8 @@ android {
         applicationId = "com.maxi.unitconverter"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = (System.getenv("BUILD_NUMBER") ?: "1").toInt()
+        versionName = System.getenv("BUILD_VERSION") ?: "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
