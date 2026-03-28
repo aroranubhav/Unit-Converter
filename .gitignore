@@ -1,0 +1,23 @@
+# Core Gradle & Build files
+.gradle/
+build/
+bin/
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+
+# Android-specific
+local.properties
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Secrets & Keys (CRITICAL: Never commit these)
+*.jks
+*.keystore
+google-services.json
+
+# Kotlin specific
+.kotlin/
