@@ -1,4 +1,4 @@
-package com.maxi.unitconveter
+package com.maxi.unitconverter
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

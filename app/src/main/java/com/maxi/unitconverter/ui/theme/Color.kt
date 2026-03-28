@@ -1,4 +1,4 @@
-package com.maxi.unitconveter.ui.theme
+package com.maxi.unitconverter.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
