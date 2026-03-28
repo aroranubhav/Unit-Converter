@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.maxi.unitconveter"
+    namespace = "com.maxi.unitconverter"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.maxi.unitconveter"
+        applicationId = "com.maxi.unitconverter"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
