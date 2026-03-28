@@ -33,6 +33,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+    kotlinOptions {
+        jvmTarget = "11"
+    }
     buildFeatures {
         compose = true
     }
@@ -50,6 +53,8 @@ dependencies {
 
     // ViewModel
     implementation(libs.androidx.lifecycle.viewmodel)
+    implementation(libs.androidx.lifecycle.viewmodel.runtime)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
     // Hilt
     implementation(libs.hilt.android)
